@@ -1,0 +1,19 @@
+# name: Deploy my app
+
+# on:
+#   push:
+#     branches: [ main ]
+
+# jobs:
+#   deployment:
+#     runs-on: ubuntu-latest
+#     concurrency: production
+#     steps:
+#       - name: deploy
+#         run:
+
+# TO - DO:
+    # 1. use terraform to create an azure web application
+    # 2. deploy the nodejs code to the web application using GitHub Actions custom deployment pipeline
+    # link to microsoft learn deploy a node.js application in Azure: https://learn.microsoft.com/en-us/azure/app-service/quickstart-nodejs?tabs=windows&pivots=development-environment-vscode
+    # link to microsoft learn create app service with terraform https://learn.microsoft.com/en-us/azure/app-service/provision-resource-terraform 
